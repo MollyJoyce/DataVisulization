@@ -298,6 +298,10 @@ PrefabInstance:
       propertyPath: agPre
       value: 
       objectReference: {fileID: 3265797828712572680, guid: 49ce6fc607aca934c81a8a86d4fdef6c, type: 3}
+    - target: {fileID: 3265797828712572679, guid: 49ce6fc607aca934c81a8a86d4fdef6c, type: 3}
+      propertyPath: agent
+      value: 
+      objectReference: {fileID: 1714196934}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49ce6fc607aca934c81a8a86d4fdef6c, type: 3}
 --- !u!1 &177073421
@@ -1809,6 +1813,11 @@ Transform:
   m_Father: {fileID: 779238876}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!195 &1228397176 stripped
+NavMeshAgent:
+  m_CorrespondingSourceObject: {fileID: 3357968555656011528, guid: 809d09002b6bd434e8d7e77b367b913e, type: 3}
+  m_PrefabInstance: {fileID: 1578531609}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1316838919
 GameObject:
   m_ObjectHideFlags: 0
@@ -2172,6 +2181,10 @@ PrefabInstance:
       propertyPath: agPre
       value: 
       objectReference: {fileID: 3357968555656011528, guid: 809d09002b6bd434e8d7e77b367b913e, type: 3}
+    - target: {fileID: 3357968555656011529, guid: 809d09002b6bd434e8d7e77b367b913e, type: 3}
+      propertyPath: agent
+      value: 
+      objectReference: {fileID: 1228397176}
     - target: {fileID: 3357968555656011531, guid: 809d09002b6bd434e8d7e77b367b913e, type: 3}
       propertyPath: m_Name
       value: Agent2
@@ -2452,6 +2465,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1709845426}
   m_CullTransparentMesh: 1
+--- !u!195 &1714196934 stripped
+NavMeshAgent:
+  m_CorrespondingSourceObject: {fileID: 3265797828712572680, guid: 49ce6fc607aca934c81a8a86d4fdef6c, type: 3}
+  m_PrefabInstance: {fileID: 30147310}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1933693014
 GameObject:
   m_ObjectHideFlags: 0

@@ -109,12 +109,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf4475fd63cdeaa4bba57d2bd99695f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  agPre: {fileID: 0}
+  agent: {fileID: 3265797828712572680}
   Dest: {fileID: 1652863141136027963, guid: 53a10ffcc812ecc4f98782de9242fae3, type: 3}
   Dest1: {fileID: 6358998696327831878, guid: 43acaea166c4c294b84f55e287038cb8, type: 3}
   Dest2: {fileID: 8338763968660610218, guid: 117d1d4a5858ce746a3aefdc901b5a5a, type: 3}
   Dest3: {fileID: 5628954362878808659, guid: 6959adad4c99fe74081e2f1fcd04babe, type: 3}
   Dest4: {fileID: 5819505095197338668, guid: 88657d67526a355478c2e099d0c12ad7, type: 3}
+  wait: 0
 --- !u!195 &3265797828712572680
 NavMeshAgent:
   m_ObjectHideFlags: 0
