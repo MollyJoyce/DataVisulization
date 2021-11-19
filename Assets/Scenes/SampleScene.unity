@@ -1813,11 +1813,6 @@ Transform:
   m_Father: {fileID: 779238876}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!195 &1228397176 stripped
-NavMeshAgent:
-  m_CorrespondingSourceObject: {fileID: 3357968555656011528, guid: 809d09002b6bd434e8d7e77b367b913e, type: 3}
-  m_PrefabInstance: {fileID: 1578531609}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1316838919
 GameObject:
   m_ObjectHideFlags: 0
@@ -2184,7 +2179,7 @@ PrefabInstance:
     - target: {fileID: 3357968555656011529, guid: 809d09002b6bd434e8d7e77b367b913e, type: 3}
       propertyPath: agent
       value: 
-      objectReference: {fileID: 1228397176}
+      objectReference: {fileID: 3357968555656011528, guid: 809d09002b6bd434e8d7e77b367b913e, type: 3}
     - target: {fileID: 3357968555656011531, guid: 809d09002b6bd434e8d7e77b367b913e, type: 3}
       propertyPath: m_Name
       value: Agent2

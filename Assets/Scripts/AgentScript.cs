@@ -26,9 +26,9 @@ public class AgentScript : MonoBehaviour
         
         agent = this.GetComponent<NavMeshAgent>();
 
-        Instantiate(agent); 
+        
 
-        int AssignNum = UnityEngine.Random.Range(0,100);
+        //int AssignNum = UnityEngine.Random.Range(0,100);
 
         if(agent.gameObject.CompareTag ("Type1")){
              agent.SetDestination(Dest4.position);
@@ -38,7 +38,11 @@ public class AgentScript : MonoBehaviour
             
              agent.SetDestination(Dest3.position);
         }
+
+        
         }
+
+        Instantiate(agent); 
    }
    
     
