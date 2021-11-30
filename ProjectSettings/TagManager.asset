@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Type1
   - Type2
+  - Z
+  - X
+  - Spawn
+  - Clone
   layers:
   - Default
   - TransparentFX
